@@ -7,7 +7,7 @@ public class Factors {
             param2 = Integer.parseInt(args[1]);
         }
         catch(NumberFormatException e){
-            System.out.println("Unable to parse paramter as an integer");
+            System.out.println("Unable to parse parameter as an integer");
             System.out.println(e.getMessage());
             System.exit(0);
         }
